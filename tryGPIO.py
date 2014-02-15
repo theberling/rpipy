@@ -4,6 +4,7 @@ from time import sleep
 # use P1 header pin numbering convention
 GPIO.setmode(GPIO.BOARD)
 
+#testing this
 # Set up the GPIO channels
 GPIO.setup(11, GPIO.IN) # This could be used to detect a switch
 GPIO.setup(12, GPIO.OUT) # This is going to supply the on/off signal
